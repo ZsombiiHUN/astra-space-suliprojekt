@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Astra Aerospace | Kapcsolat</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="container">
+            <nav>
+                <a href="index.html" class="logo">ASTRA</a>
+                <ul class="nav-links">
+                    <li><a href="index.html">Főoldal</a></li>
+                    <li><a href="animation.html">Animáció</a></li>
+                    <li><a href="table.html">Technológia</a></li>
+                    <li><a href="form.html" class="active">Kapcsolat</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="content-section">
+            <div class="container">
+                <h2>Kapcsolatfelvétel</h2>
+                <form">
+                    <label for="name">Név:</label>
+                    <input type="text" id="name" name="name" required>
+                    <br><br>
+
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email" required>
+                    <br><br>
+
+                    <label for="subject">Téma:</label>
+                    <select id="subject" name="subject">
+                        <option value="info">Információ</option>
+                        <option value="partnership">Partnerség</option>
+                        <option value="career">Karrier</option>
+                    </select>
+                    <br><br>
+
+                    <label for="message">Üzenet:</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                    <br><br>
+
+                    <input type="submit" value="Küldés" class="btn">
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Astra Aerospace. Minden jog fenntartva.</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
