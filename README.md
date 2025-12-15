@@ -5,6 +5,8 @@
 
 Ez a projekt egy fiktív űrkutatási vállalat, az **Astra Aerospace** bemutatkozó weboldala. A fejlesztés célja a modern webes technológiák (HTML5, CSS3) bemutatása egy komplett, összefüggő iskolai projekt keretében.
 
+![Weboldal Tervezet](images/site_structure.svg)
+
 ---
 
 ## 📂 Oldalak és Funkciók

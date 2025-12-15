@@ -1,0 +1,124 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 700" style="background-color: #1a1a2e; font-family: 'Courier New', monospace;">
+  <defs>
+    <!-- Common Page Template -->
+    <symbol id="page-frame">
+      <!-- Browser/Window frame -->
+      <rect x="0" y="0" width="300" height="220" rx="5" fill="#232336" stroke="#4b4b66" stroke-width="2"/>
+      <!-- Header / Nav -->
+      <rect x="10" y="10" width="280" height="30" rx="2" fill="#2d2d44" stroke="#5b5b7a" stroke-width="1"/>
+      <circle cx="25" cy="25" r="3" fill="#ff5f56"/>
+      <circle cx="35" cy="25" r="3" fill="#ffbd2e"/>
+      <circle cx="45" cy="25" r="3" fill="#27c93f"/>
+      <line x1="200" y1="25" x2="280" y2="25" stroke="#7a7a99" stroke-width="2"/>
+      <!-- Footer -->
+      <rect x="10" y="195" width="280" height="15" fill="#2d2d44"/>
+    </symbol>
+  </defs>
+
+  <text x="550" y="40" fill="#ffffff" font-size="24" text-anchor="middle" font-weight="bold">ASTRA AEROSPACE - SITE OVERVIEW</text>
+
+  <!-- 1. HOME PAGE -->
+  <g transform="translate(50, 80)">
+    <use href="#page-frame"/>
+    <text x="150" y="-10" fill="#aeaece" text-anchor="middle">Index.html (Főoldal)</text>
+    
+    <!-- Hero Section -->
+    <rect x="25" y="55" width="250" height="60" fill="#32325d" stroke="#5b5b7a" stroke-dasharray="2 2"/>
+    <line x1="100" y1="75" x2="200" y2="75" stroke="#ffffff" stroke-width="3"/> <!-- Title -->
+    <line x1="80" y1="90" x2="220" y2="90" stroke="#8888aa" stroke-width="2"/> <!-- Subtitle -->
+    
+    <!-- 2 Cards -->
+    <rect x="35" y="125" width="105" height="50" rx="2" stroke="#5b5b7a" fill="none"/>
+    <rect x="160" y="125" width="105" height="50" rx="2" stroke="#5b5b7a" fill="none"/>
+  </g>
+
+  <!-- 2. ANIMATION PAGE -->
+  <g transform="translate(400, 80)">
+    <use href="#page-frame"/>
+    <text x="150" y="-10" fill="#aeaece" text-anchor="middle">Animation.html</text>
+    
+    <!-- Space bg representation -->
+    <rect x="25" y="55" width="250" height="120" fill="#151520" stroke="#333"/>
+    <!-- Stars -->
+    <circle cx="50" cy="70" r="1.5" fill="white"/>
+    <circle cx="200" cy="150" r="1.5" fill="white"/>
+    <circle cx="100" cy="100" r="1" fill="white"/>
+    <circle cx="250" cy="70" r="1" fill="white"/>
+    <!-- Rocket -->
+    <path d="M130,130 Q150,110 170,90 L160,80 L180,90 L175,100 Z" fill="none" stroke="#ffcc00" stroke-width="2"/>
+    <text x="150" y="115" fill="white" font-size="20">🚀</text>
+  </g>
+
+  <!-- 3. TECHNOLOGY PAGE -->
+  <g transform="translate(750, 80)">
+    <use href="#page-frame"/>
+    <text x="150" y="-10" fill="#aeaece" text-anchor="middle">Table.html (Technológia)</text>
+    
+    <!-- Table representation -->
+    <rect x="25" y="60" width="250" height="20" fill="#444" stroke="none"/> <!-- Header -->
+    <line x1="25" y1="80" x2="275" y2="80" stroke="#777"/>
+    <line x1="25" y1="105" x2="275" y2="105" stroke="#555"/>
+    <line x1="25" y1="130" x2="275" y2="130" stroke="#555"/>
+    <line x1="25" y1="155" x2="275" y2="155" stroke="#555"/>
+    
+    <!-- Columns -->
+    <line x1="80" y1="60" x2="80" y2="155" stroke="#444" stroke-dasharray="2 2"/>
+    <line x1="160" y1="60" x2="160" y2="155" stroke="#444" stroke-dasharray="2 2"/>
+    <!-- Hover effect hint -->
+    <rect x="20" y="105" width="260" height="25" fill="#ff0000" opacity="0.2"/>
+  </g>
+
+  <!-- 4. GALLERY PAGE -->
+  <g transform="translate(50, 380)">
+    <use href="#page-frame"/>
+    <text x="150" y="-10" fill="#aeaece" text-anchor="middle">Gallery.html</text>
+    
+    <!-- Grid -->
+    <rect x="30" y="60" width="70" height="50" fill="#333" stroke="#666"/>
+    <rect x="115" y="60" width="70" height="50" fill="#333" stroke="#666"/>
+    <rect x="200" y="60" width="70" height="50" fill="#333" stroke="#666"/>
+    
+    <rect x="30" y="125" width="70" height="50" fill="#333" stroke="#666"/>
+    <rect x="115" y="125" width="70" height="50" fill="#333" stroke="#666"/>
+    <rect x="200" y="125" width="70" height="50" fill="#333" stroke="#666"/>
+    
+    <text x="65" y="90" fill="#666" font-size="10" text-anchor="middle">IMG</text>
+  </g>
+
+  <!-- 5. MEDIA PAGE -->
+  <g transform="translate(400, 380)">
+    <use href="#page-frame"/>
+    <text x="150" y="-10" fill="#aeaece" text-anchor="middle">Media.html</text>
+    
+    <text x="150" y="65" fill="#888" font-size="10" text-anchor="middle">VIDEOS</text>
+    
+    <!-- Video Player 1 -->
+    <rect x="40" y="80" width="100" height="70" fill="#000" stroke="#555"/>
+    <polygon points="85,105 85,125 105,115" fill="#f00"/>
+    
+    <!-- Video Player 2 -->
+    <rect x="160" y="80" width="100" height="70" fill="#000" stroke="#555"/>
+    <polygon points="205,105 205,125 225,115" fill="#f00"/>
+  </g>
+
+  <!-- 6. CONTACT PAGE -->
+  <g transform="translate(750, 380)">
+    <use href="#page-frame"/>
+    <text x="150" y="-10" fill="#aeaece" text-anchor="middle">Form.html (Kapcsolat)</text>
+    
+    <!-- Form Fields -->
+    <rect x="50" y="60" width="200" height="20" rx="2" stroke="#666" fill="none"/> <!-- Name -->
+    <text x="70" y="74" fill="#666" font-size="8">Név...</text>
+    
+    <rect x="50" y="90" width="200" height="20" rx="2" stroke="#666" fill="none"/> <!-- Email -->
+    <text x="70" y="104" fill="#666" font-size="8">Email...</text>
+    
+    <rect x="50" y="120" width="200" height="40" rx="2" stroke="#666" fill="none"/> <!-- Msg -->
+    <text x="70" y="135" fill="#666" font-size="8">Üzenet...</text>
+    
+    <!-- Button -->
+    <rect x="100" y="170" width="100" height="20" rx="5" fill="#27c93f"/>
+    <text x="150" y="184" fill="#fff" font-size="10" text-anchor="middle" font-weight="bold">KÜLDÉS</text>
+  </g>
+
+</svg>
