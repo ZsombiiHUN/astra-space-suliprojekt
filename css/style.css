@@ -88,7 +88,7 @@ main {
     flex: 1;
 }
 
-/* Itt a kép a hero sectionbe, ezt nem linkeltem be */
+/* Itt a kép a hero sectionbe, ezt nem linkeltem be (EZT EN IRTAM NEM CHATGPT!!!!!!%!!!!!!!%!%!!%!4%4%!!!) */
 .hero {
     background: linear-gradient(rgba(11, 13, 23, 0.7), rgba(11, 13, 23, 0.7)), url('https://images.unsplash.com/photo-1516849841032-87cbac4d88f7?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80');
     background-size: cover;
@@ -157,4 +157,128 @@ footer {
 footer p {
     color: #7a7d8c;
     font-size: 0.9rem;
+}
+
+.form-container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.stilus {
+    background: #1c2135;
+    padding: 2.5rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    border: 1px solid #2a2f45;
+}
+
+.csoportositva {
+    margin-bottom: 1.5rem;
+    text-align: left;
+}
+
+.csoportositva label {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: #b0b3c5;
+    font-weight: 500;
+}
+
+.csoportositva input,
+.csoportositva select,
+.csoportositva textarea {
+    width: 100%;
+    padding: 12px 15px;
+    background-color: #0b0d17;
+    border: 1px solid #2a2f45;
+    border-radius: 4px;
+    color: #ffffff;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+}
+
+.csoportositva input:focus,
+.csoportositva select:focus,
+.csoportositva textarea:focus {
+    outline: none;
+    border-color: #3e64ff;
+    box-shadow: 0 0 0 3px rgba(62, 100, 255, 0.1);
+}
+
+.submit-btn {
+    width: 100%;
+    cursor: pointer;
+    font-size: 1.1rem;
+    margin-top: 10px;
+    border: none;
+}
+
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px 0;
+}
+
+
+.gallery-item {
+    position: relative;
+    border-radius: 8px;
+    overflow: hidden;
+    height: 250px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.gallery-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.gallery-item:hover {
+    transform: translateY(-5px);
+}
+
+.gallery-item .overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 15px;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+/* Video Grid Styles */
+.video-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.video-wrapper {
+    position: relative;
+    padding-bottom: 56.25%;
+    /* 16:9 Aspect Ratio */
+    height: 0;
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+.video-wrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+@media (max-width: 768px) {
+    .video-grid {
+        grid-template-columns: 1fr;
+    }
 }
